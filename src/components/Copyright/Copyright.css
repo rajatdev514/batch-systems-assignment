@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Freeman&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Mukta:wght@200;300;400;500;600;700;800&family=Play:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap');
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+    background-color: #fff;
+}
+.blurred-line {
+    width: 80%;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
+}
+
+/* .copy{
+    justify-content: center;
+    align-items: center;
+} */
+
+.copytext{
+    margin-left: 38%;
+    margin-bottom: 2rem;
+    color: #000;
+    font-family: "Play", sans-serif;
+}
+
+@media only screen and (max-width:700px) {
+    .line{
+        margin-left: 200px;
+        margin-right: none;
+        width: 110%;
+    }
+    .copytext{
+        margin-left: 60%;
+        width: 400px;
+        margin-bottom: 2rem;
+        color: #000;
+        font-family: "Play", sans-serif;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
